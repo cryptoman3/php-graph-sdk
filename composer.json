@@ -3,7 +3,7 @@
     "description": "Facebook SDK for PHP",
     "keywords": ["facebook", "sdk"],
     "type": "library",
-    "homepage": "https://github.com/cryptoman3/php-graph-sdk",
+    "homepage": "https://github.com/facebook/php-graph-sdk",
     "license": "Facebook Platform",
     "authors": [
         {
