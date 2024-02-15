@@ -182,11 +182,11 @@ class FacebookRedirectLoginHelper
      *
      * @return string
      */
-    public function getReRequestUrl($redirectUrl, array $scope = [], $separator = '&')
+    public function getReRequestUrl($redirectUrl, array $scope = [], $separator = '&', $state = null)
     {
         $params = ['auth_type' => 'rerequest'];
 
-        return $this->makeUrl($redirectUrl, $scope, $params, $separator);
+        return $this->makeUrl($redirectUrl, $scope, $params, $separator, $state);
     }
 
     /**
